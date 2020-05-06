@@ -1,0 +1,136 @@
+body {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+
+h2,
+h3 {
+    color: #D7E8BA;
+    font-size: 2em;
+    padding: 30px 50px;
+}
+
+p {
+    color: rgb(21, 22, 26);
+    font-size: 24px;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 20px;
+    clear: both;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    color: #D7E8BA;
+    text-shadow: 2px 2px 8px rgb(235, 28, 28);
+    font-family: Lucida, sans-serif;
+    height: 100px;
+}
+
+.header-logo {
+    position: absolute;
+    top: 150px;
+    left: 65%;
+}
+
+.open {
+    background-color: #2E86AB;
+}
+
+.week1 {
+    width: 100%;
+    background-color: rgb(235, 28, 28);
+}
+
+.week1>h2 {
+    background-color: #000000;
+    padding-bottom: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #490707;
+    list-style: none;
+}
+
+.navigation {
+    background-color: rgb(235, 28, 28);
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation li {
+    list-style: none;
+    font-size: 2.5em;
+}
+
+img.logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.open-section {
+    background-color: #2E86AB;
+    position: relative;
+    width: 100%;
+    ;
+}
+
+.open-h {
+    text-align: center;
+    font-size: 2.5em;
+    color: #000000;
+}
+
+li {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.frontend-layers {
+    border: 2px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    font-family: georgia, monospace;
+}
+
+.frontend-layers td {
+    padding: 20px 20px;
+    border: 2px solid white;
+}
+
+.layer {
+    background-color: #237920;
+}
+
+.tag {
+    font-size: 1.5em;
+    color: rgb(134, 54, 23);
+}
+
+.content {
+    font-size: 2em;
+    display: flex;
+    justify-content: space-around;
+}
