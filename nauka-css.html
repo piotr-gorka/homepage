@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="main.js">
+    </script>
+    <title>WTF: Co ten frontend?</title>
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nauka-html.html">HTML</a></li>
+            <li><a href="nauka-css.html">CSS</a></li>
+            <li><a href="nauka-js.html">JavaScript</a></li>
+            <li><a href="nauka-git.html">Git</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="open-section">
+            <h2>Informacje na temat CSS</h2>
+            <img id="css" class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css logo" />
+            <article>
+                <h2><i>CSS = Cascading Style Sheets</i></h2>
+                <p>CSS odpowiadają za prezentację</p>
+                <table class="frontend-layers">
+                    <tr>
+                        <td>JAVASCRIPT</td>
+                    </tr>
+                    <tr>
+                        <td class="layer">CSS</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                    </tr>
+                    <tr>
+                        <td>Treść</td>
+                    </tr>
+                </table>
+                <p>CSS wpływają na wygląd elementów HTML i treści na ekranie, wydrukach itp.</p>
+                <p>Składnia CSS to reguły</p>
+                <img src="images/selektor.PNG" alt="budowa selektora css" />
+                <blockquote>Budowa reguły CSS</blockquote>
+                <p><span class="tag">&lt;style&gt;</span><br>W nim wpisujemy reguły</p>
+                <img src="images/link.PNG" alt="znacznik link" />
+                <blockquote>Podpięcie zewnętrznego pliku CSS do HTML</blockquote>
+                <img src="images/link.PNG" alt="znacznik klasy" />
+                <blockquote>.(kropka) - znacznik klasy</blockquote>
+                <img src="images/selektor-id.PNG" alt="selektor id" />
+                <blockquote>#(hash) - znacznik identyfikatora</blockquote>
+
+                <p><span class="tag">!important</span><br>Nadpisuje wszystkie selektory i jest niezmienny</p>
+                <img src="images/specyficznosc.PNG" alt="specyficznosc selektorów" />
+                <blockquote>Specyficzność selektorów w CSS</blockquote>
+
+                <p><i>Jeśli specyficzność jest równa - pierwszeństwo ma selektor "bliżej" elementu</i></p>
+                <p>Nazewnictwo klas</p>
+                <ul>
+                    <li>Używaj pojedynczych słów z j. angielskiego</li>
+                    <li>Nazywaj rzeczy zgodnie z ich funkcją na stronie </li>
+                    <li>Wtartuj z małej litery np. header nie Header</li>
+                    <li>Nie zaczynaj od cyfry</li>
+                    <li>Jeśli musisz użyć dwóch słów użyj tzw. kebab case np. news-listing</li>
+                    <li>Staraj się, żeby element miał jedną klasę (nie zwiększaj specyficzności bez potrzeby)</li>
+                </ul>
+                <p><a href="#top" class="go-up">Przejdź na górę</a></p>
+            </article>
+        </section>
+        <footer>Strona domowa Piotra Górki - Wszelkie prawa, prawie zastrzeżone :)</footer>
+    </main>
+
+</body>
+
+</html>
