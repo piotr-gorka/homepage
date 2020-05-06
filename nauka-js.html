@@ -1,68 +1,99 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="main.js">
-    </script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="main.js"></script>
     <title>WTF: Co ten frontend?</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <nav class="navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nauka-html.html">HTML</a></li>
-            <li><a href="nauka-css.html">CSS</a></li>
-            <li><a href="nauka-js.html">JavaScript</a></li>
-            <li><a href="nauka-git.html">Git</a></li>
-        </ul>
+      <a class="navigation__link" href="index.html">Home</a>
+      <a class="navigation__link" href="nauka-html.html">HTML</a>
+      <a class="navigation__link" href="nauka-css.html">CSS</a>
+      <a class="navigation__link" href="nauka-js.html">JavaScript</a>
+      <a class="navigation__link" href="nauka-git.html">Git</a>
     </nav>
     <main>
-        <section class="open-section">
-            <h2>Informacje na temat JavaScript</h2>
-            <img id="javascript" class="logo" src="https://cdn.clipart.email/219a9f2a1941e9767b17ce98eae4a42f_vector-javascript-picture-2114926-vector-javascript_350-350.png" alt="logo jsa" />
-            <article>
-                <table class="frontend-layers">
-                    <tr>
-                        <td class="layer">JAVASCRIPT</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                    </tr>
-                    <tr>
-                        <td>HTML</td>
-                    </tr>
-                    <tr>
-                        <td>Treść</td>
-                    </tr>
-                </table>
-                <p>Javascript jest ostatnią warstwą mającą kontrolę nad wszystkimi innymi.</p>
-                <p>Będziemy uczyć się ECMAScript 2015+ (ES6+)</p>
-                <h2>Co to jest ECMAScript 6+</h2>
-                <ul>
-                    <li>ECMAScript jest to ustandaryzowany przez organizację ECMA skryptowy język programowania</li>
-                    <li>JavaScript implementuje rzeczy ze specyfikacji ECMAScript</li>
-                    <li>Rozwój ECMAScript mocno przyspieszył przez szerokie wykorzystywanie JavaScriptu</li>
-                    <li>ES6 (i nowsze) wprowadzają wiele udogodnień dla developerów </li>
-                    <li>Nowe feature'y mogą nie być wspierane we wszystkich przeglądarkach (ale są na to sposoby 😎)</li>
-                </ul>
-                <p>Z czego składa się JavaScript?</p>
-                <img src="images/cotojs.PNG" alt="z czego sklada sie js" />
-                <p> Podobnie jak style - mają też swój znacznik - <span class="tag">&lt;script&gt;</span></p>
+      <section class="article__content section__background">
+        <h2 class="article__heading">Informacje na temat JavaScript</h2>
+        <img
+          id="javascript"
+          class="article__logo"
+          src="https://cdn.clipart.email/219a9f2a1941e9767b17ce98eae4a42f_vector-javascript-picture-2114926-vector-javascript_350-350.png"
+          alt="logo jsa"
+        />
+        <article>
+          <table class="article__table">
+            <tr>
+              <td class="article__table--data article__table--layer">
+                JAVASCRIPT
+              </td>
+            </tr>
+            <tr>
+              <td class="article__table--data">CSS</td>
+            </tr>
+            <tr>
+              <td class="article__table--data">HTML</td>
+            </tr>
+            <tr>
+              <td class="article__table--data">Treść</td>
+            </tr>
+          </table>
+          <p class="article__paragraph">
+            Javascript jest ostatnią warstwą mającą kontrolę nad wszystkimi
+            innymi.
+          </p>
+          <p class="article__paragraph">
+            Będziemy uczyć się ECMAScript 2015+ (ES6+)
+          </p>
+          <h2 class="article__heading">Co to jest ECMAScript 6+</h2>
+          <ul class="article__list">
+            <li class="article__list--link">
+              ECMAScript jest to ustandaryzowany przez organizację ECMA
+              skryptowy język programowania
+            </li>
+            <li class="article__list--link">
+              JavaScript implementuje rzeczy ze specyfikacji ECMAScript
+            </li>
+            <li class="article__list--link">
+              Rozwój ECMAScript mocno przyspieszył przez szerokie
+              wykorzystywanie JavaScriptu
+            </li>
+            <li class="article__list--link">
+              ES6 (i nowsze) wprowadzają wiele udogodnień dla developerów
+            </li>
+            <li class="article__list--link">
+              Nowe feature'y mogą nie być wspierane we wszystkich przeglądarkach
+              (ale są na to sposoby 😎)
+            </li>
+          </ul>
+          <p class="article__paragraph">Z czego składa się JavaScript?</p>
+          <img src="images/cotojs.PNG" alt="z czego sklada sie js" />
+          <p class="article__paragraph">
+            Podobnie jak style - mają też swój znacznik -
+            <span class="tag">&lt;script&gt;</span>
+          </p>
 
-                <p><i>console.log('Siema!');</i></p>
-                <p><i>console.log(name);</i></p>
-                <p><i>console.log(<span class="tag">`</span>Nazywam się <b>${name}</b> i mam <b>${age}</b> lat<span class="tag">`</span>);</i></p>
-                <p><a href="#top" class="go-up">Przejdź na górę</a></p>
-            </article>
-        </section>
-        <footer>Strona domowa Piotra Górki - Wszelkie prawa, prawie zastrzeżone :)</footer>
+          <p class="article__paragraph"><i>console.log('Siema!');</i></p>
+          <p class="article__paragraph"><i>console.log(name);</i></p>
+          <p class="article__paragraph">
+            <i
+              >console.log(<span class="tag">`</span>Nazywam się
+              <b>${name}</b> i mam <b>${age}</b> lat<span class="tag">`</span
+              >);</i
+            >
+          </p>
+          <p class="article__paragraph">
+            <a href="#top" class="article__return">Przejdź na górę</a>
+          </p>
+        </article>
+      </section>
+      <footer class="article__footer">
+        Strona domowa Piotra Górki - Wszelkie prawa, prawie zastrzeżone :)
+      </footer>
     </main>
-
-</body>
-
+  </body>
 </html>
