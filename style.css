@@ -1,6 +1,7 @@
 body {
   background: #a58a7f;
   font-family: Georgia;
+  margin: 0 auto;
 }
 main {
   width: 1000px;
@@ -18,6 +19,10 @@ main {
   font-size: 48px;
   padding: 10px;
   text-align: center;
+
+}
+.article__heading--main-heading{
+  margin-top: 100px;
 }
 .article__heading--wtf {
   color: #684a52;
@@ -65,8 +70,10 @@ main {
 }
 /*Style navigation */
 .navigation {
+  position: fixed;
+  top: 0;
   background-color: #c57b57;
-  padding: 20px 20px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -84,7 +91,7 @@ main {
 }
 .section__content {
   background-color: #f1ab86;
-
+  margin: 0 auto;
   width: 100%;
 }
 .section__header {
@@ -93,7 +100,7 @@ main {
   color: #d7e8ba;
   text-shadow: 2px 2px 8px #f1ab86;
   font-family: Lucida, sans-serif;
-  height: 100px;
+  margin-top: 100px;
 }
 
 .section__logo {
