@@ -12,3 +12,4 @@ const info = document.querySelector('.article__paragraph--js');
 console.log(info);
 
 info.innerHTML = 'Ten paragraf został napisany za pomocą JavaScript';
+
