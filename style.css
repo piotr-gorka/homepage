@@ -16,13 +16,8 @@ main {
   text-align: center;
 }
 
-.article__heading--wtf {
-  color: #684a52;
-  font-family: Georgia;
-}
-.article__list--link {
+.article-list__item--link {
   padding-bottom: 20px;
-  list-style: none;
 }
 
 .article__paragraph {
@@ -84,14 +79,6 @@ main {
   width: 100%;
 }
 
-
-.section__footer {
-  text-align: center;
-  padding: 20px 20px;
-  clear: both;
-  background: #c57b57;
-}
-
 .section__heading {
   color: #49433f;
   font-size: 48px;
@@ -102,7 +89,10 @@ main {
 .section__heading--main-heading {
   margin-top: 100px;
 }
-
+.section__heading--wtf {
+  color: #684a52;
+  font-family: Georgia;
+}
 .section__header {
   text-align: center;
   font-size: 1.5em;
@@ -127,3 +117,9 @@ main {
   letter-spacing: 2px;
 }
 
+.footer {
+  text-align: center;
+  padding: 20px 20px;
+  clear: both;
+  background: #c57b57;
+}

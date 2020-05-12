@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
-  
+
     <title>WTF: Co ten frontend?</title>
   </head>
 
@@ -18,7 +18,9 @@
     </nav>
     <main>
       <section class="section section__background">
-        <h2 class="section__heading section__heading--main-heading ">Informacje na temat HTML</h2>
+        <h2 class="section__heading section__heading--main-heading">
+          Informacje na temat HTML
+        </h2>
         <img
           id="html"
           class="section__logo"
@@ -51,17 +53,31 @@
             nie ma wpływu na pozostałe.
           </p>
           <h2 class="article__heading">Treść to:</h2>
-          <ul class="article__list">
-            <li class="article__list--link">Teksty</li>
-            <li class="article__list--link">Nagłówki</li>
-            <li class="article__list--link">Linki</li>
-            <li class="article__list--link">Listy</li>
-            <li class="article__list--link">Formularze</li>
-            <li class="article__list--link">Video</li>
-            <li class="article__list--link">Definicje</li>
-            <li class="article__list--link">Obrazki</li>
-            <li class="article__list--link">Każdy inny nośnik informacji</li>
-          </ul>
+          <div class="article-list">
+            <ul class="article-list__item">
+              <li class="article-list__item article-list__item--link">
+                Teksty
+              </li>
+              <li class="article-list__item article-list__item--link">
+                Nagłówki
+              </li>
+              <li class="article-list__item article-list__item--link">Linki</li>
+              <li class="article-list__item article-list__item--link">Listy</li>
+              <li class="article-list__item article-list__item--link">
+                Formularze
+              </li>
+              <li class="article-list__item article-list__item--link">Video</li>
+              <li class="article-list__item article-list__item--link">
+                Definicje
+              </li>
+              <li class="article-list__item article-list__item--link">
+                Obrazki
+              </li>
+              <li class="article-list__item article-list__item--link">
+                Każdy inny nośnik informacji
+              </li>
+            </ul>
+          </div>
           <img src="images/structure-html.PNG" alt="struktura html" />
           <p class="article__paragraph">
             HTML składa się ze znaczników/tagów/elementów
@@ -138,7 +154,7 @@
           </p>
         </article>
       </section>
-      <footer class="section__footer">
+      <footer class="footer">
         Strona domowa Piotra Górki - Wszelkie prawa, prawie zastrzeżone :)
       </footer>
     </main>

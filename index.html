@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>WTF: Co ten frontend?</title>
-    
   </head>
 
   <body>
@@ -16,12 +15,16 @@
       <a class="navigation__link" href="nauka-js.html">JavaScript</a>
       <a class="navigation__link" href="nauka-git.html">Git</a>
     </nav>
-    
+
     <main>
-      <header class="section__header article__heading--main-heading" >
-        <h1 class="article__heading article__heading--wtf">WTF: Co ten Frontend?!</h1>
-        <p class="article__paragraph article__paragraph--js"></p>
-      </header>
+      <section class="section">
+        <header class="section__header">
+          <h1 class="section__heading section__heading--wtf">
+            WTF: Co ten Frontend?!
+          </h1>
+          <p class="section__paragraph section__paragraph--js"></p>
+        </header>
+      </section>
       <section class="section">
         <h2 class="section__heading">Kim jestem?</h2>
         <p class="section__paragraph">
@@ -41,13 +44,15 @@
             Poznałem zasady jakie obowiązują podczas kursu i sposób nauki, który
             wygląda mniej więcej tak:
           </p>
-          <ol class="article__list">
-            <li class="article__list--link">Obejrzyj lekcje</li>
-            <li class="article__list--link">Sprawdź prace domowe</li>
-            <li class="article__list--link">
-              Obejrzyj jeszcze raz podczas odrabiania pracy domowej
-            </li>
-          </ol>
+          <div class="article-list">
+            <ol class="article-list__item">
+              <li class="article-list__item article-list__item--link">Obejrzyj lekcje</li>
+              <li class="article-list__item article-list__item--link">Sprawdź prace domowe</li>
+              <li class="article-list__item article-list__item--link">
+                Obejrzyj jeszcze raz podczas odrabiania pracy domowej
+              </li>
+            </ol>
+          </div>
           <p class="article__paragraph">
             Używanym narzędziem do komunikacji jest <b>Slack</b>, dzięki któremu
             mogę się kontaktować z Maćkiem i innymi współtowarzyszami
@@ -57,7 +62,7 @@
           </p>
         </article>
       </section>
-      <footer class="section__footer">
+      <footer class="footer">
         Strona domowa Piotra Górki - Wszelkie prawa, prawie zastrzeżone :)
       </footer>
     </main>
