@@ -1,5 +1,6 @@
 body {
   background: #a58a7f;
+  background: linear-gradient(0deg, rgba(112,82,89,1) 0%, rgba(214,126,71,1) 98%);
   font-family: Georgia;
   margin: 0 auto;
 }
@@ -70,6 +71,7 @@ main {
   font-size: 2.5em;
   color: white;
   margin: 16px;
+  
 }
 
 /*Style section */
