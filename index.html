@@ -9,22 +9,26 @@
   </head>
 
   <body>
-    <nav class="navigation">
-      <a class="navigation__link" href="index.html">Home</a>
-      <a class="navigation__link" href="nauka-html.html">HTML</a>
-      <a class="navigation__link" href="nauka-css.html">CSS</a>
-      <a class="navigation__link" href="nauka-js.html">JavaScript</a>
-      <a class="navigation__link" href="nauka-git.html">Git</a>
-    </nav>
-
+    <header class="header">
+      <nav class="navigation navigation--js">
+        <a class="navigation__link" href="index.html">Home</a>
+        <a class="navigation__link" href="nauka-html.html">HTML</a>
+        <a class="navigation__link" href="nauka-css.html">CSS</a>
+        <a class="navigation__link" href="nauka-js.html">JavaScript</a>
+        <a class="navigation__link" href="nauka-git.html">Git</a>
+      </nav>
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        🍔
+      </button>
+    </header>
     <main>
       <section class="section">
-        <header class="section__header">
+        <section class="section__header">
           <h1 class="section__heading section__heading--wtf">
             WTF: Co ten Frontend?!
           </h1>
           <p class="section__paragraph section__paragraph--js"></p>
-        </header>
+        </section>
       </section>
       <section class="section">
         <h2 class="section__heading">Kim jestem?</h2>
@@ -47,8 +51,12 @@
           </p>
           <div class="article-list">
             <ol class="article-list__item">
-              <li class="article-list__item article-list__item--link">Obejrzyj lekcje</li>
-              <li class="article-list__item article-list__item--link">Sprawdź prace domowe</li>
+              <li class="article-list__item article-list__item--link">
+                Obejrzyj lekcje
+              </li>
+              <li class="article-list__item article-list__item--link">
+                Sprawdź prace domowe
+              </li>
               <li class="article-list__item article-list__item--link">
                 Obejrzyj jeszcze raz podczas odrabiania pracy domowej
               </li>

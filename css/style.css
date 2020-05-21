@@ -1,20 +1,26 @@
 html {
   box-sizing: border-box;
- }
- *, *:before, *:after {
+}
+*,
+*:before,
+*:after {
   box-sizing: inherit;
- }
- 
+}
+
 body {
   background: #a58a7f;
   background-repeat: no-repeat;
-  background: linear-gradient(0deg, rgba(112,82,89,1) 0%, rgba(214,126,71,1) 98%);
+  background: linear-gradient(
+    0deg,
+    rgba(112, 82, 89, 1) 0%,
+    rgba(214, 126, 71, 1) 98%
+  );
   font-family: Georgia;
   margin: 0 auto;
 }
+
 main {
-  width: 1000px;
-  margin: 0 auto;
+  width: 100%;
 }
 /*Style article */
 
@@ -65,22 +71,20 @@ main {
   color: rgb(134, 54, 23);
 }
 /*Style navigation */
-.navigation {
-  position: fixed;
-  top: 0;
-  background-color: #c57b57;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
+.navigation{
 
+
+
+}
 .navigation__link {
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 1em;
   color: white;
   margin: 16px;
-  
+  display: block;
 }
+
+
 
 /*Style section */
 .section {
@@ -133,3 +137,25 @@ main {
   clear: both;
   background: #c57b57;
 }
+.hamburger {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.header{
+  height: 60px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    position: fixed;
+    top: 0;
+    background-color: #c57b57;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+  
+ 
