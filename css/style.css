@@ -20,26 +20,34 @@ body {
 }
 
 main {
-  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  height: 60px;
 }
 /*Style article */
 
 .article__heading {
   color: #49433f;
-  font-size: 48px;
+  font-size: 32px;
   padding: 10px;
   text-align: center;
 }
-
+.article__image{
+  width: 100%;
+}
 .article-list__item--link {
   padding-bottom: 20px;
 }
 
 .article__paragraph {
   color: #041f1e;
-  font-size: 32px;
+  font-size: 16px;
   padding: 10px 10px;
   letter-spacing: 2px;
+  
 }
 .article__paragraph--showPhoto {
   font-size: 16px;
@@ -116,7 +124,7 @@ main {
   color: #d7e8ba;
   text-shadow: 2px 2px 8px #f1ab86;
   font-family: Lucida, sans-serif;
-  margin-top: 100px;
+  margin-top: 127px;
 }
 
 .section__logo {
@@ -129,7 +137,7 @@ main {
 }
 .section__paragraph {
   color: #041f1e;
-  font-size: 32px;
+  font-size: 16px;
   padding: 10px 10px;
   letter-spacing: 2px;
 }

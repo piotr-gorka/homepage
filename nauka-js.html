@@ -10,13 +10,18 @@
   </head>
 
   <body>
-    <nav class="navigation">
-      <a class="navigation__link" href="index.html">Home</a>
-      <a class="navigation__link" href="nauka-html.html">HTML</a>
-      <a class="navigation__link" href="nauka-css.html">CSS</a>
-      <a class="navigation__link" href="nauka-js.html">JavaScript</a>
-      <a class="navigation__link" href="nauka-git.html">Git</a>
-    </nav>
+    <header class="header">
+      <nav class="navigation navigation--js">
+        <a class="navigation__link" href="index.html">Home</a>
+        <a class="navigation__link" href="nauka-html.html">HTML</a>
+        <a class="navigation__link" href="nauka-css.html">CSS</a>
+        <a class="navigation__link" href="nauka-js.html">JavaScript</a>
+        <a class="navigation__link" href="nauka-git.html">Git</a>
+      </nav>
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        🍔
+      </button>
+    </header>
     <main>
       <section class="section">
         <h2 class="section__heading section__heading--main-heading">
@@ -79,7 +84,7 @@
             </ul>
           </div>
           <p class="article__paragraph">Z czego składa się JavaScript?</p>
-          <img src="images/cotojs.PNG" alt="z czego sklada sie js" />
+          <img class="article__image" src="images/cotojs.PNG" alt="z czego sklada sie js" />
           <p class="article__paragraph">
             Podobnie jak style - mają też swój znacznik -
             <span class="tag">&lt;script&gt;</span>
@@ -104,5 +109,5 @@
       </footer>
     </main>
   </body>
-  
+  <script src="main.js"></script>
 </html>
