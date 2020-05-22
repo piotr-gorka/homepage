@@ -32,5 +32,7 @@ const hamburger = document.querySelector('.hamburger--js');
 hamburger.addEventListener('click', ()=>{
   const navi = document.querySelector('.navigation--js');
   navi.classList.toggle('navigation--open');
+  console.log('klik');
 })
+
 

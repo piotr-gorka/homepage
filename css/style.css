@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  width: 100%;
+  width: 1000px;
 }
 /*Style article */
 
@@ -71,10 +71,8 @@ main {
   color: rgb(134, 54, 23);
 }
 /*Style navigation */
-.navigation{
-
-
-
+.navigation {
+  display: none;
 }
 .navigation__link {
   text-decoration: none;
@@ -83,8 +81,13 @@ main {
   margin: 16px;
   display: block;
 }
-
-
+.navigation--open{
+  position: fixed;
+  top: 0;
+  background-color: #c57b57;
+  width: 100%;
+  display:block;
+}
 
 /*Style section */
 .section {
@@ -142,7 +145,7 @@ main {
   top: 16px;
   right: 16px;
 }
-.header{
+.header {
   height: 60px;
   width: 100%;
 }
@@ -156,6 +159,7 @@ main {
     display: flex;
     justify-content: space-around;
   }
+  .hamburger{
+    display:none;
+  }
 }
-  
- 
