@@ -1,4 +1,4 @@
-const info = document.querySelector(".section__paragraph--js");
+/*const info = document.querySelector(".section__paragraph--js");
 console.log(info);
 
 info.innerHTML = "Ten paragraf został napisany za pomocą JavaScript";
@@ -23,11 +23,8 @@ function greet(name, age) {
 
 greet(person1.name, person1.age);
 greet(person2.name, person2.age);
-
-
+ */
 const hamburger = document.querySelector('.hamburger--js');
-
-
 
 hamburger.addEventListener('click', ()=>{
   const navi = document.querySelector('.navigation--js');
