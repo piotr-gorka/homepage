@@ -20,9 +20,9 @@ body {
 }
 
 .header {
-    height: 60px;
-    width: 100%;
-  }
+  height: 60px;
+  width: 100%;
+}
 main {
   display: grid;
   grid-template-columns: 1fr;
@@ -71,19 +71,19 @@ main {
   &__tag::after {
     content: "⚡";
   }
+  &__table--data {
+    padding: 20px 20px;
+    border: 2px solid #1e2d2f;
+  }
+  &__table--layer {
+    background-color: #c57b57;
+  }
 }
 
 .article-list__item--link {
   padding-bottom: 20px;
 }
 
-.article__table--data {
-  padding: 20px 20px;
-  border: 2px solid #1e2d2f;
-}
-.article__table--layer {
-  background-color: #c57b57;
-}
 /*Style navigation */
 .navigation {
   display: none;
@@ -107,12 +107,14 @@ main {
   background-color: #f1ab86;
   margin: 0 auto;
   width: 100%;
+
   &__heading {
     color: #49433f;
     font-size: 48px;
     padding: 10px;
     text-align: center;
   }
+
   &__heading--main-heading {
     margin-top: 100px;
   }
@@ -154,7 +156,6 @@ main {
   top: 16px;
   right: 16px;
 }
-
 
 @media screen and (min-width: 768px) {
   .navigation {

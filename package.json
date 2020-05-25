@@ -4,20 +4,21 @@
   "description": "First project ",
   "main": "js/main.js",
   "scripts": {
-    "sass": "node-sass -w scss/style.scss css/style.css",
+    "sass:watch": "node-sass -w scss/style.scss css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/piotr-gorka/homepage.git"
   },
-  "author": "Piotr Górka",
+  "author": "Piotr Gorka",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/piotr-gorka/homepage/issues"
   },
   "homepage": "https://github.com/piotr-gorka/homepage#readme",
   "dependencies": {
+    "cowsay": "^1.4.0",
     "node-sass": "^4.14.1"
   }
 }
