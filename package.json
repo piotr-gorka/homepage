@@ -1,0 +1,22 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "First project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotr-gorka/homepage.git"
+  },
+  "author": "Piotr Górka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piotr-gorka/homepage/issues"
+  },
+  "homepage": "https://github.com/piotr-gorka/homepage#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
